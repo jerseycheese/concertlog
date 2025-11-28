@@ -1,12 +1,13 @@
 import './App.css'
-import HelloWorld from './HelloWorld.jsx';
+import Header from './components/Header.jsx'
+import ShowList from './components/ShowList.jsx'
 
 function App() {
-
   return (
-    <>
-      <HelloWorld />
-    </>
+    <div className="app">
+      <Header title="ConcertLog" subtitle="Shows you want to remember" />
+      <ShowList />
+    </div>
   )
 }
 
